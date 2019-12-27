@@ -11,9 +11,9 @@ public class test {
         System.out.println("Vehicle position: "+vehicle.position);
 
         //Testing road
-        Road road=new Road("r3",6,vehicle,null,trafficLight);
+        Road road = new Road("r3",6,vehicle,null,trafficLight);
         road.update(vehicle);
-        for(int i=0;i<=road.object.length-1;i++){
+        for(int i = 0;i <= road.object.length-1;i++){
             System.out.println(road.object[i]);
         }
     }
