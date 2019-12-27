@@ -31,7 +31,7 @@ public class Simulator {
                 }
                 road = vehicle.currentRoad;
             }
-            Thread.sleep(2000);
+            Thread.sleep(1000);
         }
         System.out.println("The End!");
     }
