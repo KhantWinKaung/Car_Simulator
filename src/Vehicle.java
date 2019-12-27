@@ -7,7 +7,7 @@ public class Vehicle {
     }
 
     //Vehicle constructor
-    public Vehicle(String name, int position, Road currentRoad) {
+    public Vehicle(String name, int position, Road currentRoad) {       // Declare the String name and Integer position in vehicle Constructor
         this.name = name;
         this.position = position;
         this.currentRoad = currentRoad;
