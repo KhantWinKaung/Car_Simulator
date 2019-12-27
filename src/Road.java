@@ -1,7 +1,7 @@
 public class Road {
     // Declare road variable
-    Object[]object;
-    String name;
+    Object[]object;         //Object for car, traffic light ect
+    String name;           //Declare String variable for name
     int length;
     Vehicle vehicle = new Vehicle();
     TrafficLight trafficLight = new TrafficLight();
@@ -25,7 +25,7 @@ public class Road {
             object[vehicle.position - 1] = null;
             this.object[vehicle.position] = this.vehicle;
         }
-        else if(vehicle.position == this.length){
+        else if(vehicle.position == this.length){              // Check vehicle position and the length is equal or not
             if(trafficLight.color.equalsIgnoreCase("Green")) {
                 vehicle.position = 0;
                 vehicle.currentRoad = connectedRoad;
