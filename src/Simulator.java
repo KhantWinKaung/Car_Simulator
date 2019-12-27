@@ -1,5 +1,5 @@
 public class Simulator {
-    //
+    //Main method of simulator class
     public static void main(String[] args) throws InterruptedException,NullPointerException {
 
         Boolean end = false; //Boolean to end the simulator or not
