@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.Arrays;
 import javax.swing.*;
 
-public class GridTest02 extends JFrame implements ActionListener {
+public class Test extends JFrame implements ActionListener {
 
     private JPanel btnPanel;
     private JPanel panel;
@@ -20,7 +20,7 @@ public class GridTest02 extends JFrame implements ActionListener {
     private JButton btnSave = new JButton("Save");
     private JButton btnRemove = new JButton( "Remove" );
     //private boolean isRoad = false;
-    public GridTest02()
+    public Test()
     {
         super("City Creation");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -64,7 +64,7 @@ public class GridTest02 extends JFrame implements ActionListener {
     }
     public static void main(String[] args)
     {
-        new GridTest02();
+        new Test();
     }
 
     @Override
